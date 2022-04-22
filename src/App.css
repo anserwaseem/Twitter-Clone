@@ -1,4 +1,28 @@
-.App {
+.fitContent {
+  width: 100%;
+  max-width: 600px;
+}
+
+.hoverGrey:hover {
+  background-color: lightgray;
+}
+.hoverBlue:hover {
+  background-color: lightblue;
+}
+/* .dropdownButton {
+  color: "unset" !important;
+  background-color: "grey" !important;
+  border-color: "inherit" !important;
+} */
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.line {
+  border-left: 2px solid rgb(207, 217, 222);
+  margin-top: 4px;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +59,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
